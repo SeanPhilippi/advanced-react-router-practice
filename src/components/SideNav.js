@@ -1,5 +1,5 @@
 import React from "react";
-// import {Link} from "react-router-dom";
+import { Link } from "react-router-dom";
 
 function SideNav() {
   return (
@@ -7,14 +7,30 @@ function SideNav() {
       <ul className="nav navbar-nav side-nav">
         <li className="active">
 
-          <Link to="/comments"> <i className="fa fa-fw fa-dashboard" />
-            Comments
-          </Link>
-
           <Link to="/"> <i className="fa fa-fw fa-dashboard" />
             Dashboard
           </Link>
-
+          <Link to="/charts"> <i className="fa fa-fw fa-dashboard" />
+            Charts
+          </Link>
+          <Link to="/tables"> <i className="fa fa-fw fa-dashboard" />
+            Tables
+          </Link>
+          <Link to="/settings"> <i className="fa fa-fw fa-dashboard" />
+            Settings
+          </Link>
+          <Link to="/wall"> <i className="fa fa-fw fa-dashboard" />
+            Wall
+          </Link>
+          <Link to="/profiles"> <i className="fa fa-fw fa-dashboard" />
+            Profiles
+          </Link>
+          <Link to="/marquee/iloveroutes"> <i className="fa fa-fw fa-dashboard" />
+            I love routes!
+          </Link>
+          <Link to="/marquee/reactrouterules"> <i className="fa fa-fw fa-dashboard" />
+            React route rules
+          </Link>
         </li>
         <li>
           <a href="charts.html">

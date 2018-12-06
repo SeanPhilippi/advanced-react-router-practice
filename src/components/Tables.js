@@ -3,9 +3,11 @@ import React from 'react';
 class Tables extends React.Component {
 
   render() {
-    <div>
-      Tables
-    </div>
+    return (
+      <div>
+        Tables
+      </div>
+    )
   }
 }
 

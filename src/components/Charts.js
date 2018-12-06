@@ -3,9 +3,11 @@ import React from 'react';
 class Charts extends React.Component {
 
   render() {
-    <div>
-      Charts
-    </div>
+    return (
+      <div>
+        Charts
+      </div>
+    )
   }
 }
 
