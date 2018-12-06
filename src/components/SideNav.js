@@ -6,11 +6,15 @@ function SideNav() {
     <div className="collapse navbar-collapse navbar-ex1-collapse">
       <ul className="nav navbar-nav side-nav">
         <li className="active">
-          {/*
-          <Link to="/"> <i className="fa fa-fw fa-dashboard" />
-            Dashboard 
+
+          <Link to="/comments"> <i className="fa fa-fw fa-dashboard" />
+            Comments
           </Link>
-          */}
+
+          <Link to="/"> <i className="fa fa-fw fa-dashboard" />
+            Dashboard
+          </Link>
+
         </li>
         <li>
           <a href="charts.html">
@@ -23,7 +27,7 @@ function SideNav() {
           </a>
         </li>
       </ul>
-    </div>);  
+    </div>);
 }
 
 export default SideNav;
